@@ -117,7 +117,7 @@ body {
 }
 @keyframes daytransition {
   from {
-    background-color: #fec7e45d;
+    background-color: #000;
   }
   to {
     background-color: #000;
@@ -132,9 +132,7 @@ body {
   from {
     background-color: #fec7e45d;
   }
-  /* to {
-    background-color: #fec7e45d;
-  } */
+ 
 }
 .btnSwitch{
     cursor: pointer;
