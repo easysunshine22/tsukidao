@@ -32,6 +32,7 @@ body {
 }
 .hamburger {
   cursor: pointer;
+  display: none;
 }
 .hamburger div {
   background: #fec7e4;
