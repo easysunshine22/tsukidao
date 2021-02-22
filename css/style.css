@@ -102,3 +102,8 @@ body {
 .social_links img {
   height: 50px;
 }
+.pancakeIMg{
+    width: 70px;
+    /* height: 200px; */
+    /* border: 1px solid red; */
+}
