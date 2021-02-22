@@ -48,11 +48,25 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  text-align: center;
 }
 .big_logo img {
   max-width: 100%;
   margin: auto;
   height: auto;
+}
+.big_logo h2{
+    color: #fec7e4;
+    font-size: 50px;
+    position: relative;
+    top: -30px;
+    font-family: "Exo 2", sans-serif;
+}
+@media(max-width: 300px){
+  .big_logo h2{
+    font-size: 40px;
+    top: 0;
+  }
 }
 .discr {
   max-width: 450px;
@@ -61,7 +75,6 @@ body {
   color: #fec7e4;
   text-align: center;
   line-height: 5px;
-  margin-top: 70px;
 }
 .discr p {
   font-size: 1.8rem;
@@ -71,6 +84,11 @@ body {
 @media (max-width: 350px) {
   .discr p {
     font-size: 1.3rem;
+  }
+}
+@media(max-width: 300px){
+  .discr p {
+    font-size: 1rem;
   }
 }
 @media (max-width: 500px) {
@@ -88,12 +106,16 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 70px;
   font-family: "Exo 2", sans-serif;
 }
 @media (max-width: 500px) {
   .social_links {
-    margin-top: 140px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .social_links {
+    margin-top: 80px;
   }
 }
 .social_links li {
