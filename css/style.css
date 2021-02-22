@@ -1,0 +1,98 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url("../assets/gifs.GIF") #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 100%;
+  }
+  .inn-main{
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  .nav {
+    width: 100%;
+  }
+  .in_nav {
+    max-width: 1114px;
+    margin: auto;
+    min-height: 10vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .logo img {
+    height: 50px;
+  }
+  .hamburger{
+    cursor: pointer;
+  }
+  .hamburger div {
+    background: #fec7e4;
+    margin: 5px;
+    width: 30px;
+    height: 4px;
+    border-radius: 60px;
+  }
+  .big_logo {
+    max-width: 450px;
+    min-height: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .big_logo img{
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+  }
+  .discr {
+    max-width: 450px;
+    min-height: 100%;
+    margin: 0 auto;
+    color: #fec7e4;
+    text-align: center;
+    line-height: 5px;
+    margin-top: 70px;
+  }
+  .discr p {
+    font-size: 1.8rem;
+    letter-spacing: 4px;
+    font-family: "Exo 2", sans-serif;
+  }
+  @media (max-width: 500px) {
+    .discr p {
+      letter-spacing: 0;
+    }
+  }
+  .discr hr {
+    border: 1px solid #fec7e4;
+  }
+  .social_links {
+    max-width: 300px;
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    font-family: "Exo 2", sans-serif;
+  }
+  @media (max-width: 500px) {
+    .social_links {
+      margin-top: 140px;
+    }
+  }
+  .social_links li {
+    list-style: none;
+  }
+  .social_links img {
+    height: 50px;
+  }
